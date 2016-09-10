@@ -1,0 +1,6 @@
+{
+    "require": {
+        "rmccue/requests": "^1.6",
+        "slim/slim": "^3.5"
+    }
+}
