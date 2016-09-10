@@ -1,4 +1,4 @@
-#Slackbot + Wunderlist
+# Slackbot + Wunderlist
  The built-in Wunderlist integration in Slack is \[currently\] a pain, because any time you add a list, it has to be manually integrated through Slack's web interface.
  
  This project sets up endpoints to grab all the lists under a Wunderlist folder and add Webhook endpoints to them.
@@ -7,7 +7,7 @@
  
  List deletion (a.k.a. completion) is accounted for, but the Wunderlist API doesn't seem to be reliable in firing this webhook at the time of writing.
  
- ##URIs
+ ## URIs
  
  Visit `domain.com/update` to add webhooks to any new lists in the folder
 
@@ -17,4 +17,4 @@
  
  ___
  
- _Use composer to install dependencies_
+ _Use Composer to install dependencies_
